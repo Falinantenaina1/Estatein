@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estatein | Home Page</title>
     <link rel="stylesheet" href="./styles/home.css">
+    <script src="./scripts/app.js" defer></script>
 </head>
+
 <body>
     <header>
         <nav class="topbar">
-            <a href="#">
+            <a href="#" class="navbar-brand">
                 <img src="./assets/img/logo.svg" alt="logo">
                 <span>Estatein</span>
             </a>
-            <div>
-                <a href="#">Home</a>
-                <a href="#">About Us</a>
-                <a href="#">Properties</a>
-                <a href="#">Services</a>
+            <div class="nav-item">
+                <div>
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Properties</a>
+                    <a href="#">Services</a>
+                </div>
+                <a href="#">Contact Us</a>
             </div>
-            <a href="#">Contact Us</a>
+            <div class="nav-item-toggle">
+                <img src="./assets/icon/toggle.svg" alt="topbar toggle">
+            </div>
         </nav>
         <div id="home">
             <div>
@@ -27,7 +35,8 @@
             </div>
             <div>
                 <h1>Discover Your Dream Property with Estatein</h1>
-                <p>Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.</p>
+                <p>Your journey to finding the perfect property begins here. Explore our listings to find the home that
+                    matches your dreams.</p>
                 <div class="btn-group">
                     <button class="btn">Learn More</button>
                     <button class="btn btn-primary">Browse Properties</button>
@@ -44,7 +53,8 @@
                             <div class="card-title">10k+</div>
                             <div class="card-text">Properties For Clients</div>
                         </div>
-                    </div><div class="card">
+                    </div>
+                    <div class="card">
                         <div class="card-body">
                             <div class="card-title">16+</div>
                             <div class="card-text">Years of Experience</div>
@@ -55,4 +65,5 @@
         </div>
     </header>
 </body>
+
 </html>
