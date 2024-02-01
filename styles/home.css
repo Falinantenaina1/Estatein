@@ -1,0 +1,19 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-primary: #141414;
+    --bg-secondary: #262626;
+    --text: #fff;
+    --main: #703BF7;
+}
+
+html, body {
+    font-size: 14px;
+    font-family: 'Urbanist', sans-serif;
+    color: var(--text);
+    background: var(--bg-primary);
+}
