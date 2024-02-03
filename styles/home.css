@@ -104,6 +104,11 @@ a {
 .btn-primary {
     background: var(--main);
 }
+*.card-group {
+    display: grid; 
+    grid-template-areas: "a b" "c c";
+    gap: 6px;
+}
 
 .card {
     background: var(--bg-secondary);
@@ -113,6 +118,9 @@ a {
     border-radius: 8px;
 }
 
+.card-grid-3 {
+    grid-area: c;
+}
 .card-title {
     color: var(--heading);
     font-size: 1.5rem;
