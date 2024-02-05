@@ -161,6 +161,7 @@ a {
 .card-banner > .card {
     width: calc(50% - 5px);
     padding: 20px 14px;
+    cursor: pointer;
 }
 
 .card-banner img {
@@ -173,7 +174,7 @@ a {
 }
 /* LAPTOP */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
     html, body {
         font-size: 16px;
     }
@@ -242,6 +243,28 @@ a {
         padding: 14px 20px;
     }
 
+    
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1140px) {
+    html, body {
+        font-size: 18px;
+    }
+
+    .topbar {
+        padding: 20px 162px;
+    }
+
+    .background-img {
+        width: 630px;
+    }
+
+    .intro {
+        grid-area: a;
+        padding: 30px 40px 30px 45px;
+    }
+
     .card-group {
         grid-template-areas: "a b c";
     }
@@ -249,7 +272,10 @@ a {
     .card {
         text-align: left;
         padding: 14px 20px;
-        width: 192px;
+    }
+
+    .banner {
+        border-radius: none;
     }
 
     .card-banner {
@@ -266,17 +292,6 @@ a {
     
     .card-banner img {
         width: 48px;
-    }
-}
-
-/* DESKTOP */
-@media screen and (min-width: 1440px) {
-    html, body {
-        font-size: 18px;
-    }
-
-    .topbar {
-        padding: 20px 162px;
     }
 
 }
