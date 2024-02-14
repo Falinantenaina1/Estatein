@@ -103,7 +103,7 @@ a {
     margin-top: 16px;
 }
 
-.btn-group, .card-group {
+.btn-group, .info-group {
     margin: 40px 0;
 }
 
@@ -122,13 +122,13 @@ a {
 .btn-primary {
     background: var(--main);
 }
-.card-group {
+.info-group {
     display: grid; 
     grid-template-areas: "a b" "c c";
     gap: 6px;
 }
 
-.card {
+.info {
     background: var(--bg-secondary);
     padding: 16px;
     text-align: center;
@@ -136,10 +136,10 @@ a {
     border-radius: 8px;
 }
 
-.card-grid-3 {
+.info-grid-3 {
     grid-area: c;
 }
-.card-title {
+.info-title {
     color: var(--heading);
     font-size: 1.5rem;
     font-weight: 700;
@@ -152,23 +152,23 @@ a {
     padding: 10px;
 }
 
-.card-banner {
+.info-banner {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.card-banner > .card {
+.info-banner > .info {
     width: calc(50% - 5px);
     padding: 20px 14px;
     cursor: pointer;
 }
 
-.card-banner img {
+.info-banner img {
     width: 48px;
 }
 
-.card-banner .card-text {
+.info-banner .info-text {
     color: var(--heading);
     font-weight: 500;
 }
@@ -265,32 +265,32 @@ a {
         padding: 30px 40px 30px 45px;
     }
 
-    .card-group {
+    .info-group {
         grid-template-areas: "a b c";
     }
 
-    .card {
+    .info {
         text-align: left;
         padding: 14px 20px;
     }
 
     .banner {
-        border-radius: none;
+        border-radius: 0;
     }
 
-    .card-banner {
+    .info-banner {
         display: flex;
         flex-wrap: nowrap;
         gap: 10px;
     }
     
-    .card-banner > .card {
+    .info-banner > .info {
         text-align: center;
         width: calc(25% - 5px);
         padding: 20px 14px;
     }
     
-    .card-banner img {
+    .info-banner img {
         width: 48px;
     }
 
