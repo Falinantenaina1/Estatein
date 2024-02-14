@@ -172,6 +172,51 @@ a {
     color: var(--heading);
     font-weight: 500;
 }
+
+
+/* FEATURED */
+
+
+.section-title {
+    font-size: 2rem;
+    color: var(--heading);
+    font-weight: 500;  
+}
+
+/* CARD */
+.card {
+    display: block;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.card-img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.28rem;
+    font-weight: 500;
+    color: var(--heading);
+    margin-top: 16px;
+}
+
+.card-text > a {
+    color: var(--heading);
+    border-bottom: 1px solid var(--text);
+}
+
+.card-btn {
+    display: inline-block;
+    background: var(--bg-secondary);
+    color: var(--heading);
+    border: 1px solid var(--border);
+    border-radius: 28px;
+    padding: 8px 12px;
+}
 /* LAPTOP */
 
 @media screen and (min-width: 992px) {
