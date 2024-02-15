@@ -210,7 +210,7 @@ section {
     font-size: 1.28rem;
     font-weight: 500;
     color: var(--heading);
-    margin-top: 16px;
+    margin: 16px 0 5px;
 }
 
 .card-text > a {
@@ -261,6 +261,19 @@ section {
     font-weight: 500;
     color: var(--heading);
 }
+
+.card-client {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.client-name {
+    font-size: 1.15rem;
+    color: var(--heading);
+}
+
 /* LAPTOP */
 
 @media screen and (min-width: 992px) {
