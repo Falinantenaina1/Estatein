@@ -1,1 +1,69 @@
 @import url(./header.css);
+
+.hero-img {
+    position: relative;
+    display: block;
+}
+
+.hero-img > img:first-child {
+    width: 100%;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+
+.hero-img > img:last-child {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 117px;
+    transform: translateY(50%);
+}
+
+.discover {
+    margin-top: 84px;
+}
+
+.discover > h1 > span {
+    display: block;
+}
+
+.discover p {
+    margin-top: 16px;
+}
+
+.hero-button {
+    margin-top: 24px;
+}
+
+.hero-button > .btn {
+    margin-top: 16px;
+}
+
+.btn.dark {
+    background: var(--bg-primary);
+    border: 1px solid var(--border);
+}
+
+.hero-jumbotron {
+    display: grid;
+    grid-template-areas: "a b" "c c";
+    gap: 12px;
+    margin-top: 40px;
+}
+
+.hero-jumbotron > .jumbotron {
+    padding: 16px;
+}
+
+.hero-jumbotron > .jumbotron:last-child {
+    grid-area: c;
+}
+
+.hero-jumbotron > .jumbotron > div:first-child {
+    color: var(--heading);
+    font-size: 1.7em;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+

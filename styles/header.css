@@ -11,6 +11,7 @@
     color: var(--heading);
     padding: 20px 16px;
     border: 1px solid var(--border);
+    z-index: 1000;
 }
 
 .navbar-brand {
