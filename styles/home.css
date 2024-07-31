@@ -66,4 +66,30 @@
     margin-bottom: 8px;
 }
 
+.banner-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 40px;
+    padding: 10px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: 0 0 10px var(--border);
+}
 
+.banner {
+    padding: 20px 14px;
+    text-align: center;
+    width: calc(50% - 5px);
+}
+
+.banner > img {
+    display: block;
+    margin: 0 auto;
+}
+
+.banner > span {
+    display: block;
+    color: var(--heading);
+    margin-top: 14px;
+}
