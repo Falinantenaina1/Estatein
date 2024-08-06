@@ -1,220 +1,220 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 
-*, *::after, *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --primary: #703BF7;
-    --bg-primary: #141414;
-    --text: #999999;
-    --heading: #FFFFFF;
-    --dark: ;
-    --border: #262626; 
-    --grey: #1A1A1A;
+  --primary: #703bf7;
+  --bg-primary: #141414;
+  --text: #999999;
+  --heading: #ffffff;
+  --dark: ;
+  --border: #262626;
+  --grey: #1a1a1a;
 }
 
 body {
-    font-family: 'Urbasnist', sans-serif;
-    font-size: 14px;
-    line-height: 150%;
-    background: var(--bg-primary);
-    color: var(--text);
-    font-weight: 500;
+  font-family: "Urbasnist", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  background: var(--bg-primary);
+  color: var(--text);
+  font-weight: 500;
 }
 
 main {
-    width: 100%;
-    padding: 40px 16px 0;
-    margin-top: 70.18px;
+  width: 100%;
+  padding: 40px 16px 0;
+  margin-top: 70.18px;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
-
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-h1, h2 {
-    font-size: 2em;
-    line-height: 120%;
-    color: var(--heading);
-    font-weight: 600;
+h1,
+h2 {
+  font-size: 2em;
+  line-height: 120%;
+  color: var(--heading);
+  font-weight: 600;
 }
 
 h2 {
-    line-height: 150%;
+  line-height: 150%;
 }
 
 h3 {
-    font-size: 1.425em;
-    color: var(--heading);
-    line-height: 150%;
+  font-size: 1.425em;
+  color: var(--heading);
+  line-height: 150%;
 }
 
 .btn {
-    font-size: 1em;
-    display: block;
-    padding: 14px;
-    background: var(--primary);
-    color: var(--heading);
-    text-align: center;
-    border-radius: 8px;
-    border: 1px solid transparent;
-    cursor: pointer;
+  font-size: 1em;
+  display: block;
+  padding: 14px;
+  background: var(--primary);
+  color: var(--heading);
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
 }
 
 .btn:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 .jumbotron {
-    display: block;
-    text-align: center;
-    background: var(--grey);
-    border: 1px solid var(--border);
-    border-radius: 8px;
+  display: block;
+  text-align: center;
+  background: var(--grey);
+  border: 1px solid var(--border);
+  border-radius: 8px;
 }
 
-section {
-    margin-top: 50px;
+section > .section-title {
+  margin-top: 50px;
 }
 
 .section-title::before {
-    content: "";
-    display: block;
-    width: 45.6px;
-    height: 20px;
-    margin-bottom: 6px;
-    background: url("../assets/icon/star-separator.svg");
-    background-size: cover;
+  content: "";
+  display: block;
+  width: 45.6px;
+  height: 20px;
+  margin-bottom: 6px;
+  background: url("../assets/icon/star-separator.svg");
+  background-size: cover;
 }
 
 .section-description {
-    margin-top: 6px;
+  margin-top: 6px;
 }
 
 .section-card-group {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .card {
-    display: block;
-    width: 100%;
-    border: 1px solid var(--border);
-    border-radius: 20px;
-    padding: 24px;
+  margin-top: 30px;
+  display: block;
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 24px;
 }
 
 .card-img {
-    display: block;
-    width: 100%;
-    border-radius: 10px;
+  display: block;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .card-title {
-    margin-top: 16px;
+  margin-top: 16px;
 }
 
 .card-text > a {
-    color: var(--heading);
-    text-decoration: underline;
+  color: var(--heading);
+  text-decoration: underline;
 }
 
 .card-properties-type {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 20px;
 }
 
 .card-properties-type > div {
-    padding: 6px 14px;
-    border-radius: 28px;
-    color: var(--heading);
+  padding: 6px 14px;
+  border-radius: 28px;
+  color: var(--heading);
 }
 
 .room::before {
-    content: "";
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-    vertical-align: middle;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
 }
 
 .room.bedroom::before {
-    background: url(../assets/icon/bedroom.svg) no-repeat center;
+  background: url(../assets/icon/bedroom.svg) no-repeat center;
 }
 
 .room.bathroom::before {
-    background: url(../assets/icon/bathroom.svg) no-repeat center;
+  background: url(../assets/icon/bathroom.svg) no-repeat center;
 }
 
 .room.villa::before {
-    background: url(../assets/icon/villa.svg) no-repeat center;
-    
+  background: url(../assets/icon/villa.svg) no-repeat center;
 }
 
 .card-link {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .card-price {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-price .price {
-    color: var(--heading);
-    font-size: 1.285em;
+  color: var(--heading);
+  font-size: 1.285em;
+  line-height: 150%;
+  font-weight: 600;
+}
+
+/* * * * LAPTOP * * * */
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  main {
+    margin-top: 0;
+    padding: 0;
+  }
+
+  h2 {
     line-height: 150%;
-    font-weight: 600;
+  }
+
+  .btn {
+    font-size: 0.875em;
+    padding: 14px 20px;
+    border-radius: 8px;
+  }
 }
 
-        /* * * * LAPTOP * * * */
-
-@media screen and (min-width:1024px) {
-    body {
-        font-size: 16px;
-    }
-
-    main {
-        margin-top: 0;
-        padding: 0;
-    }
-    
-    h2 {
-        line-height: 150%;
-    }
-    
-    .btn {
-        font-size: 0.875em;
-        padding: 14px 20px;
-        border-radius: 8px;
-    }
-    
+@media screen and (min-width: 1040px) {
+  h1 {
+    font-size: 2.875em;
+  }
 }
 
-@media screen and (min-width:1040px) {
-    h1 {
-        font-size: 2.875em;
-    }
-}
-
-
-        /* * * * DESKTOP * * * */
-@media screen and (min-width:1920px) {
-    body {
-        font-size: 18px;
-    }
+/* * * * DESKTOP * * * */
+@media screen and (min-width: 1920px) {
+  body {
+    font-size: 18px;
+  }
 }
