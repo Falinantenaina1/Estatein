@@ -120,6 +120,21 @@
     color: var(--heading);
 }
 
+.card-title.question {
+    margin-top: 0;
+    font-size: 1.285em;
+}
+
+.card-text.answer {
+    margin: 20px 0;
+}
+
+.card-btn {
+    background: var(--grey);
+    border: 1px solid var(--border);
+}
+
+
         /* * * * LAPTOP * * * */
 @media screen and (min-width:1024px) {
     .hero-section {
@@ -193,6 +208,14 @@
         display: block;
         color: var(--heading);
         margin-top: 14px;
+    }
+
+    .card-title.question {
+        height: 60px;
+    }
+
+    .card-btn {
+        display: inline-block;
     }
        
 }
