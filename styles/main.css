@@ -115,6 +115,10 @@ section > .section-title {
   padding: 24px;
 }
 
+.card:hover {
+  box-shadow: 0 0 20px var(--border);
+}
+
 .card-img {
   display: block;
   width: 100%;
