@@ -134,6 +134,10 @@
     border: 1px solid var(--border);
 }
 
+.btn.explore {
+    margin-top: 30px;
+}
+
 
         /* * * * LAPTOP * * * */
 @media screen and (min-width:1024px) {
@@ -215,6 +219,10 @@
     }
 
     .card-btn {
+        display: inline-block;
+    }
+
+    .btn.explore {
         display: inline-block;
     }
        

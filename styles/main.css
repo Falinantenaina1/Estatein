@@ -29,7 +29,7 @@ body {
 
 main {
   width: 100%;
-  padding: 40px 16px 0;
+  padding: 40px 16px 40px 16px;
   margin-top: 70.18px;
 }
 
@@ -197,6 +197,7 @@ section > .section-title {
   main {
     margin-top: 0;
     padding: 0;
+    padding-bottom: 40px;
   }
 
   h2 {
